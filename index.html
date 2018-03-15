@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content=""><link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="index-page">
+    <div class="mobile-menu">
+      <nav class="navigation-mobile">
+        <li class="navigation-elment"><a href="/">home</a></li>
+        <li class="navigation-elment"><a href="/">ABOUt US   </a></li>
+        <li class="navigation-elment"><a href="/">OUR APARTMENTS</a></li>
+        <li class="navigation-elment"><a href="/">Reviews  </a></li>
+        <li class="navigation-elment"><a href="/">Blog</a></li>
+        <li class="navigation-elment"><a href="/">contact us</a></li>
+        <button class="button button-mobile button--sign-up">sign up</button>
+      </nav>
+      <button class="hamburger mobile-hamburger hamburger--spring is-active"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+    </div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-top">
+            <div class="contact-info"><a class="contacts contact-info__pnumber" href="/">+020 12345678
+                <svg class="icon icon-phone icon-contacts">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#phone"></use>
+                </svg></a><a class="contacts contact-info__mail" href="/">hello@homeeurope.com
+                <svg class="icon icon-env icon-contacts">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#env"></use>
+                </svg></a></div>
+            <div class="select-lang">
+              <select class="select-language">
+                <option class="en-lang">EN</option>
+                <option class="ua-lang">UA</option>
+              </select>
+            </div>
+          </div>
+          <div class="header-bottom">
+            <div class="logo"> <img class="logo-img" src="./static/img/general/logo.png"></div>
+            <nav class="navigation">
+              <li class="navigation-elment"><a href="/">home</a></li>
+              <li class="navigation-elment"><a href="/">ABOUt US   </a></li>
+              <li class="navigation-elment"><a href="/">OUR APARTMENTS</a></li>
+              <li class="navigation-elment"><a href="/">Reviews  </a></li>
+              <li class="navigation-elment"><a href="/">Blog</a></li>
+              <li class="navigation-elment"><a href="/">contact us</a></li>
+              <button class="button button--sign-up">sign up</button>
+            </nav>
+            <button class="hamburger hamburger--spring"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="main-carousel">
+          <div class="main-carousel-gallery">
+            <div class="slide showing"><img src="./static/img/content/mg-slide2.jpg">
+              <div class="slide-content">
+                <h1 class="slide-discount">Save 10% on</h1>
+                <h1 class="slide-location">Europe & Britain</h1>
+                <button class="button-learn-more--slide">learn more</button>
+              </div>
+            </div>
+            <div class="slide"><img src="./static/img/content/mg-slide1.jpg"></div>
+            <div class="slide"><img src="./static/img/content/mg-slide3.jpg"></div>
+            <div class="controls main-carousel-controls">
+              <div class="mc-controls--prev">
+                <svg class="icon icon-left-arrow-gc icon-arrow-gc">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#left-arrow-gc"></use>
+                </svg>
+              </div>
+              <div class="mc-controls--next">
+                <svg class="icon icon-right-arrow-gc icon-arrow-gc">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#right-arrow-gc"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="wrap-search-form">
+            <form class="search-form">
+              <div class="search-form-row">
+                <div class="search-form-group search-form-group--location"><span class="search-form-name">Country,city or apartment</span>
+                  <input class="search-form-input search-location">
+                  <svg class="icon icon-placeholder search-form-icon">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#placeholder"></use>
+                  </svg>
+                </div>
+                <div class="search-form-group"><span class="search-form-name">Guest</span>
+                  <input class="search-form-input search-guest">
+                  <svg class="icon icon-profile search-form-icon">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#profile"></use>
+                  </svg>
+                  <svg class="icon icon-down-arrow-search search-form-icon--arrow">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#down-arrow-search"></use>
+                  </svg>
+                </div>
+                <div class="search-form-group"><span class="search-form-name">Room</span>
+                  <input class="search-form-input search-room">
+                  <svg class="icon icon-door search-form-icon">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#door"></use>
+                  </svg>
+                  <svg class="icon icon-down-arrow-search search-form-icon--arrow">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#down-arrow-search"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="search-form-row">
+                <div class="search-form-group"><span class="search-form-name">Check-in</span>
+                  <input class="search-form-input search-chek-in">
+                  <svg class="icon icon-calendar search-form-icon">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#calendar"></use>
+                  </svg>
+                  <svg class="icon icon-down-arrow-search search-form-icon--arrow">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#down-arrow-search"></use>
+                  </svg>
+                </div>
+                <div class="search-form-group"><span class="search-form-name">Duration</span>
+                  <input class="search-form-input search-duration">
+                  <svg class="icon icon-night search-form-icon">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#night"></use>
+                  </svg>
+                  <svg class="icon icon-down-arrow-search search-form-icon--arrow">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#down-arrow-search"></use>
+                  </svg>
+                </div>
+                <div class="search-form-group search-form-group--checkout"><span class="search-form-name">Check-out</span>
+                  <p class="search-form-chek-out-date">Check Out Date</p>
+                </div>
+                <div class="search-form-group">
+                  <button class="button-search button-search-form">Search</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="cities-block" data-aos="fade-down">
+          <div class="container">
+            <div class="cities-block--title title">
+              <h1>Explore stay or Work</h1>
+              <h2>experience the finest cities</h2>
+            </div>
+            <div class="cities-carousel">
+              <div class="cities-gallery">
+                <div class="slide--cities">
+                  <div class="content-overlay"></div><img class="content-image" src="../static/img/content/mg-slide2.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <p class="content-textThis">coming soon</p>
+                  </div>
+                  <div class="slide-content--cities">
+                    <h1 class="cities-name">Milano</h1>
+                  </div>
+                </div>
+                <div class="slide--cities">
+                  <div class="content-overlay"></div><img class="content-image" src="./static/img/content/mg-slide2.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <p class="content-textThis">coming soon</p>
+                  </div>
+                  <div class="slide-content--cities">
+                    <h1 class="cities-name">Milano</h1>
+                  </div>
+                </div>
+                <div class="slide--cities">
+                  <div class="content-overlay"></div><img class="content-image" src="./static/img/content/mg-slide2.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <p class="content-textThis">coming soon</p>
+                  </div>
+                  <div class="slide-content--cities">
+                    <h1 class="cities-name">Milano</h1>
+                  </div>
+                </div>
+                <div class="slide--cities">
+                  <div class="content-overlay"></div><img class="content-image" src="./static/img/content/mg-slide2.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <p class="content-textThis">coming soon</p>
+                  </div>
+                  <div class="slide-content--cities">
+                    <h1 class="cities-name">Milano</h1>
+                  </div>
+                </div>
+                <div class="slide--cities">
+                  <div class="content-overlay"></div><img class="content-image" src="./static/img/content/mg-slide2.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <p class="content-textThis">coming soon</p>
+                  </div>
+                  <div class="slide-content--cities">
+                    <h1 class="cities-name">Milano</h1>
+                  </div>
+                </div>
+                <div class="slide--cities">
+                  <div class="content-overlay"></div><img class="content-image" src="./static/img/content/mg-slide2.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <p class="content-textThis">coming soon</p>
+                  </div>
+                  <div class="slide-content--cities">
+                    <h1 class="cities-name">Milano</h1>
+                  </div>
+                </div>
+                <div class="slide--cities">
+                  <div class="content-overlay"></div><img class="content-image" src="./static/img/content/mg-slide2.jpg">
+                  <div class="content-details fadeIn-bottom">
+                    <p class="content-textThis">coming soon</p>
+                  </div>
+                  <div class="slide-content--cities">
+                    <h1 class="cities-name">Milano</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="apartments-block" data-aos="fade-down">
+          <div class="container">
+            <div class="apartments-block--title title">
+              <h1>our offer are great</h1>
+              <h2>popular apartments</h2>
+            </div>
+            <div class="apartments-sort"><a class="sort-tab sort-tab--active" href="/">Per Day</a><a class="sort-tab" href="/">Per Month</a></div>
+            <div class="apartments-content">
+              <div class="single-apartment">
+                <div class="single-apartment-view"><img>
+                  <svg class="icon icon-heart-in-like-circular-button ">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#heart-in-like-circular-button"></use>
+                  </svg>
+                  <div class="content-overlay"></div>
+                  <div class="overlay-info fadeIn-top"><span class="overlay-info-text--amount-bathrooms">2 bathrooms</span><span class="overlay-info-text--square-meters">2100 sqmtr</span><span class="overlay-info-text--amount-bedrooms">2 bedrooms</span><span class="overlay-info-text--location">DELTA, 48 Boulevard Jourdan</span></div>
+                </div>
+                <div class="single-apartment-content"><span class="apartment-location">London, Britain</span><span class="apartment-bedroom">Bedroom Boundless</span>
+                  <div class="apartment-price-gap"><span class="price-gap">from</span><span class="color-price">$70.00</span></div>
+                </div>
+              </div>
+              <div class="single-apartment">
+                <div class="single-apartment-view"><img>
+                  <svg class="icon icon-heart-in-like-circular-button ">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#heart-in-like-circular-button"></use>
+                  </svg>
+                  <div class="content-overlay"></div>
+                  <div class="overlay-info fadeIn-top"><span class="overlay-info-text--amount-bathrooms">2 bathrooms</span><span class="overlay-info-text--square-meters">2100 sqmtr</span><span class="overlay-info-text--amount-bedrooms">2 bedrooms</span><span class="overlay-info-text--location">DELTA, 48 Boulevard Jourdan</span></div>
+                </div>
+                <div class="single-apartment-content"><span class="apartment-location">London, Britain</span><span class="apartment-bedroom">Bedroom Boundless</span>
+                  <div class="apartment-price-gap"><span class="price-gap">from</span><span class="color-price">$70.00</span></div>
+                </div>
+              </div>
+              <div class="single-apartment">
+                <div class="single-apartment-view"><img>
+                  <svg class="icon icon-heart-in-like-circular-button ">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#heart-in-like-circular-button"></use>
+                  </svg>
+                  <div class="content-overlay"></div>
+                  <div class="overlay-info fadeIn-top"><span class="overlay-info-text--amount-bathrooms">2 bathrooms</span><span class="overlay-info-text--square-meters">2100 sqmtr</span><span class="overlay-info-text--amount-bedrooms">2 bedrooms</span><span class="overlay-info-text--location">DELTA, 48 Boulevard Jourdan</span></div>
+                </div>
+                <div class="single-apartment-content"><span class="apartment-location">London, Britain</span><span class="apartment-bedroom">Bedroom Boundless</span>
+                  <div class="apartment-price-gap"><span class="price-gap">from</span><span class="color-price">$70.00</span></div>
+                </div>
+              </div>
+              <div class="single-apartment">
+                <div class="single-apartment-view"><img>
+                  <svg class="icon icon-heart-in-like-circular-button ">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#heart-in-like-circular-button"></use>
+                  </svg>
+                  <div class="content-overlay"></div>
+                  <div class="overlay-info fadeIn-top"><span class="overlay-info-text--amount-bathrooms">2 bathrooms</span><span class="overlay-info-text--square-meters">2100 sqmtr</span><span class="overlay-info-text--amount-bedrooms">2 bedrooms</span><span class="overlay-info-text--location">DELTA, 48 Boulevard Jourdan</span></div>
+                </div>
+                <div class="single-apartment-content"><span class="apartment-location">London, Britain</span><span class="apartment-bedroom">Bedroom Boundless</span>
+                  <div class="apartment-price-gap"><span class="price-gap">from</span><span class="color-price">$70.00</span></div>
+                </div>
+              </div>
+              <div class="single-apartment">
+                <div class="single-apartment-view"><img>
+                  <svg class="icon icon-heart-in-like-circular-button ">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#heart-in-like-circular-button"></use>
+                  </svg>
+                  <div class="content-overlay"></div>
+                  <div class="overlay-info fadeIn-top"><span class="overlay-info-text--amount-bathrooms">2 bathrooms</span><span class="overlay-info-text--square-meters">2100 sqmtr</span><span class="overlay-info-text--amount-bedrooms">2 bedrooms</span><span class="overlay-info-text--location">DELTA, 48 Boulevard Jourdan</span></div>
+                </div>
+                <div class="single-apartment-content"><span class="apartment-location">London, Britain</span><span class="apartment-bedroom">Bedroom Boundless</span>
+                  <div class="apartment-price-gap"><span class="price-gap">from</span><span class="color-price">$70.00</span></div>
+                </div>
+              </div>
+              <div class="single-apartment">
+                <div class="single-apartment-view"><img>
+                  <svg class="icon icon-heart-in-like-circular-button ">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#heart-in-like-circular-button"></use>
+                  </svg>
+                  <div class="content-overlay"></div>
+                  <div class="overlay-info fadeIn-top"><span class="overlay-info-text--amount-bathrooms">2 bathrooms</span><span class="overlay-info-text--square-meters">2100 sqmtr</span><span class="overlay-info-text--amount-bedrooms">2 bedrooms</span><span class="overlay-info-text--location">DELTA, 48 Boulevard Jourdan</span></div>
+                </div>
+                <div class="single-apartment-content"><span class="apartment-location">London, Britain</span><span class="apartment-bedroom">Bedroom Boundless</span>
+                  <div class="apartment-price-gap"><span class="price-gap">from</span><span class="color-price">$70.00</span></div>
+                </div>
+              </div>
+            </div>
+            <button class="button button-view-all">View All</button>
+          </div>
+        </div>
+        <div class="call-to">
+          <h3 class="call-to-subtitlte" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease">Home Find</h3>
+          <h2 class="call-to-title" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease">Start searching fot awesome properties</h2>
+          <button class="button button--get-started" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease">Get Started</button>
+        </div>
+        <div class="testimonials-block" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease">
+          <div class="container">
+            <div class="testimonials-block--title title">
+              <h1>What Client Say</h1>
+              <h2>testimonials</h2>
+            </div>
+            <div class="testimonials-content">
+              <div class="client">
+                <div class="client-img"><img src="./static/img/content/parker.jpg"></div><span class="client-name">Erica Parker</span><span class="client-position">Designer</span>
+                <p class="client-text">Inhabit hearing perhaps on ye do no. It maids decay as there he. Smallest on suitable disposed do although blessing he juvenile in. Society or if excited forbade. Here name off yet she long sold easy whom. Differed oh cheerful procured pleasure securing suitable in</p>
+              </div>
+              <div class="client">
+                <div class="client-img"><img src="./static/img/content/parker.jpg"></div><span class="client-name">Erica Parker</span><span class="client-position">Designer</span>
+                <p class="client-text">Inhabit hearing perhaps on ye do no. It maids decay as there he. Smallest on suitable disposed do although blessing he juvenile in. Society or if excited forbade. Here name off yet she long sold easy whom. Differed oh cheerful procured pleasure securing suitable in</p>
+              </div>
+              <div class="client">
+                <div class="client-img"><img src="./static/img/content/parker.jpg"></div><span class="client-name">Erica Parker</span><span class="client-position">Designer</span>
+                <p class="client-text">Inhabit hearing perhaps on ye do no. It maids decay as there he. Smallest on suitable disposed do although blessing he juvenile in. Society or if excited forbade. Here name off yet she long sold easy whom. Differed oh cheerful procured pleasure securing suitable in</p>
+              </div>
+              <div class="client">
+                <div class="client-img"><img src="./static/img/content/parker.jpg"></div><span class="client-name">Erica Parker</span><span class="client-position">Designer</span>
+                <p class="client-text">Inhabit hearing perhaps on ye do no. It maids decay as there he. Smallest on suitable disposed do although blessing he juvenile in. Society or if excited forbade. Here name off yet she long sold easy whom. Differed oh cheerful procured pleasure securing suitable in</p>
+              </div>
+            </div>
+            <div class="testimonials-controls">
+              <div class="ts-controls--prev">
+                <svg class="icon icon-left-arrow-gc icon-arrow-ts">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#left-arrow-gc"></use>
+                </svg>
+              </div><span class="pages-view-number">1/16</span>
+              <div class="ts-controls--next">
+                <svg class="icon icon-right-arrow-gc icon-arrow-ts">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#right-arrow-gc"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease">
+          <div class="container">
+            <div class="blog--title title">
+              <h1>latest news from us</h1>
+              <h2>our blog</h2>
+            </div>
+            <div class="blog-content">
+              <div class="single-post">
+                <div class="single-post-view"><img>
+                  <div class="single-post-content-overlay"></div>
+                </div>
+                <div class="single-post-info"><span class="post-date">Jan 15, 2018</span><span class="post-author">Alice</span></div>
+                <div class="single-post-content">
+                  <h3 class="post-heading">Beautiful Resort Paradise, with mountain view </h3>
+                  <p class="post-text">Marquee selectus non provisio incongrui ous feline nolo contendre olypian qua et rrels et gorilla congolium sic ad.</p>
+                </div>
+                <div class="read-more">Read more</div>
+              </div>
+              <div class="single-post">
+                <div class="single-post-view"><img>
+                  <div class="single-post-content-overlay"></div>
+                </div>
+                <div class="single-post-info"><span class="post-date">Jan 15, 2018</span><span class="post-author">Alice</span></div>
+                <div class="single-post-content">
+                  <h3 class="post-heading">Beautiful Resort Paradise, with mountain view </h3>
+                  <p class="post-text">Marquee selectus non provisio incongrui ous feline nolo contendre olypian qua et rrels et gorilla congolium sic ad.</p>
+                </div>
+                <div class="read-more">Read more</div>
+              </div>
+              <div class="single-post">
+                <div class="single-post-view"><img>
+                  <div class="single-post-content-overlay"></div>
+                </div>
+                <div class="single-post-info"><span class="post-date">Jan 15, 2018</span><span class="post-author">Alice</span></div>
+                <div class="single-post-content">
+                  <h3 class="post-heading">Beautiful Resort Paradise, with mountain view </h3>
+                  <p class="post-text">Marquee selectus non provisio incongrui ous feline nolo contendre olypian qua et rrels et gorilla congolium sic ad.</p>
+                </div>
+                <div class="read-more">Read more</div>
+              </div>
+              <div class="single-post">
+                <div class="single-post-view"><img>
+                  <div class="single-post-content-overlay"></div>
+                </div>
+                <div class="single-post-info"><span class="post-date">Jan 15, 2018</span><span class="post-author">Alice</span></div>
+                <div class="single-post-content">
+                  <h3 class="post-heading">Beautiful Resort Paradise, with mountain view </h3>
+                  <p class="post-text">Marquee selectus non provisio incongrui ous feline nolo contendre olypian qua et rrels et gorilla congolium sic ad.</p>
+                </div>
+                <div class="read-more">Read more</div>
+              </div>
+              <div class="single-post">
+                <div class="single-post-view"><img>
+                  <div class="single-post-content-overlay"></div>
+                </div>
+                <div class="single-post-info"><span class="post-date">Jan 15, 2018</span><span class="post-author">Alice</span></div>
+                <div class="single-post-content">
+                  <h3 class="post-heading">Beautiful Resort Paradise, with mountain view </h3>
+                  <p class="post-text">Marquee selectus non provisio incongrui ous feline nolo contendre olypian qua et rrels et gorilla congolium sic ad.</p>
+                </div><a class="read-more">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="partners">
+          <div class="container">
+            <div class="partners--title title">
+              <h1>find more about us</h1>
+              <h2>our partners</h2>
+            </div>
+            <div class="partners-content">
+              <div class="partners-logo"><a href="https://www.booking.com"><img src="./static/img/content/booking.png"></a></div>
+              <div class="partners-logo"><a href="https://www.airbnb.com"><img src="./static/img/content/booking.png"></a></div>
+              <div class="partners-logo"><a href="https://www.homeaway.com"><img src="./static/img/content/hma.png"></a></div>
+              <div class="partners-logo"><a href="https://www.tripadvisor.com"><img src="./static/img/content/ta.png"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="contact-us--footer">
+              <h3 class="footer-link-heading">contact us</h3>
+              <ul class="contact-list">
+                <li class="footer-link-contact-us footer-link-contact-us--icon-envelope"><a class="footer-link" href="/">hello@homeeurope.com</a></li>
+                <li class="footer-link-contact-us"><a class="footer-link" href="/">realestate@homeeurope.com</a></li>
+                <li class="footer-link-contact-us footer-link-contact-us--icon-phone"><a class="footer-link" href="/">+020 12345678</a></li>
+                <li class="footer-link-contact-us"><a class="footer-link" href="/">+020 12345678</a></li>
+                <li class="footer-link-contact-us footer-link-contact-us--icon-location"><a class="footer-link" href="/">132-133 St, Montfichet Rd, London E20 1EN, United Kingdom </a></li>
+              </ul>
+            </div>
+            <div class="footer-link-row">
+              <div class="footer-link-block">
+                <h3 class="footer-link-heading">quick link</h3>
+                <ul class="footer-link-block-content">
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">home</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">about-us</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">our apartments</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">reviews</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">our blog</a></li>
+                </ul>
+              </div>
+              <div class="footer-link-block">
+                <h3 class="footer-link-heading">Information</h3>
+                <ul class="footer-link-block-content">
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">home</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">about-us</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">our apartments</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">reviews</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">our blog</a></li>
+                </ul>
+              </div>
+              <div class="footer-link-block">
+                <h3 class="footer-link-heading">our policy</h3>
+                <ul class="footer-link-block-content">
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">home</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">about-us</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">our apartments</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">reviews</a></li>
+                  <li class="footer-li"><a class="footer-link footer-link--main" href="/">our blog</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-link-join">
+              <h3 class="footer-link-heading">NewsLetter</h3>
+              <p class="newsletter-text">To be updated on our news & promotions, join our mailing list.</p>
+              <form class="form-for-join">
+                <label>
+                  <input class="input-join">
+                  <button class="button btn-join">join</button>
+                </label>
+              </form>
+              <div class="socials-icons"><a class="social-link" href="/">
+                  <svg class="icon icon-facebook-logo socials">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#facebook-logo"></use>
+                  </svg></a><a class="social-link" href="/">
+                  <svg class="icon icon-twitter socials">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#twitter"></use>
+                  </svg></a><a class="social-link" href="/">
+                  <svg class="icon icon-google-plus socials">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#google-plus"></use>
+                  </svg></a><a class="social-link" href="/">
+                  <svg class="icon icon-linkedin socials">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#linkedin"></use>
+                  </svg></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright"><span class="copyright-date">Copyright  @ 2018</span><a class="copyright-link" href="/"> Home Europe</a><span class="copyright-rights">, All right reserved.</span></div>
+      </footer>
+    </div><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/easing/EasePack.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TimelineLite.min.js"></script><script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script src="static/js/carousel.js"></script>
+  </body>
+</html>
