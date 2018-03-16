@@ -7,11 +7,16 @@ $('.sort-tab').click(function(e) {
     $('.sort-tab').removeClass('sort-tab--active');
     $(this).addClass('sort-tab--active');
 });
-$('.sort-tab').click(function(e) {
-    e.preventDefault();
-    $('.sort-tab').removeClass('sort-tab--active');
-    $(this).addClass('sort-tab--active');
+
+$('.icon-heart-in-like-circular-button').click(function(e) {
+    if ( $(this).hasClass('icon-heart-in-like-circular-button--active') ) {
+        $(this).removeClass('icon-heart-in-like-circular-button--active');
+    } else {
+        $('.icon-heart-in-like-circular-button');
+        $(this).addClass('icon-heart-in-like-circular-button--active');
+    }
 });
+
 
 var header = document.getElementsByClassName('header');
 var carousel = document.getElementsByClassName('main-carousel');
